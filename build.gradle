@@ -1,0 +1,15 @@
+group 'OpenWeatherMapAPI'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.5
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'io.rest-assured', name: 'rest-assured', version: '3.0.2'
+    compile group: 'org.testng', name: 'testng', version: '6.11'
+}
