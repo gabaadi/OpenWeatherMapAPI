@@ -101,7 +101,7 @@ public class CurrentWeatherAPI extends Weather {
                 get(ENDPOINT_GET_WEATHER_DATA +"?zip={zip},{country}&units=metric&APPID={APPID}").
                 then().
                 assertThat().
-                contentType(ContentType.JSON).time(lessThan(500L)); // Milliseconds
+                contentType(ContentType.JSON).time(lessThan(1000L)); // Milliseconds
     }
 
     @Test

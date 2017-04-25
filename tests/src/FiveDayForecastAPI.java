@@ -36,7 +36,7 @@ public class FiveDayForecastAPI extends Weather {
                 get(ENDPOINT_GET_FORECAST_DATA +"?q={q},{country}&APPID={APPID}").
                 then().
                 assertThat().
-                contentType(ContentType.JSON).time(lessThan(500L)); // Milliseconds
+                contentType(ContentType.JSON).time(lessThan(700L)); // Milliseconds
     }
 
     @Test

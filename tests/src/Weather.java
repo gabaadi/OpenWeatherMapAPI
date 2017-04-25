@@ -2,9 +2,6 @@ import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
 
-/**
- * Created by Lumeoneer on 4/23/2017.
- */
 public class Weather {
     //The response of a request made by REST Assured.
     public Response response;
